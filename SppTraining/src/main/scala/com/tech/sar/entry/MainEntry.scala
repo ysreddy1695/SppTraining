@@ -6,7 +6,7 @@ object MainEntry {
   
   def main(args: Array[String]): Unit = {
     
-    println("Starting the entry point --------------->")
+    println("Starting the entry point ---------------->")
     
     val spark = DemoSparkSession.spark
     import spark.implicits._
