@@ -20,9 +20,9 @@ object MainEntry {
     depDF.show()
     
     // Joined Data
-    val resultant = empDF.join(depDF, "DepId").select($"EmpName", $"DepName")
-    resultant.show()
+    val resultant1 = empDF.join(depDF, "DepId").select($"EmpName", $"DepName")
+    resultant1.show()
     
-    println("Finishing the entry point --------------->")
+    println("Finishing the entry point ------------------------>")
   }
 }
